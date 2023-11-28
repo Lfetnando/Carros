@@ -2,48 +2,53 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lexend Deca', sans-serif;
 }
 
 :root{
-    --bright-orange: #e38826;
-    --dark-cyan: #006970;
-    --very-dark-cyan: #004241;
-    --transparent-white: rgba(255, 255, 255, 0.75);
-    --very-light-gray: #f2f2f2;
+    --orange: #e38826;
+    --cyan: #006970;
+    --dark-cyan: #004241;
+    --gray: #f2f2f2;
     --white: #fff;
+    --transparent-white: rgba(255, 255, 255, 0.75);
+
 }
 
 body{
-    background: var(--very-light-gray);
     padding: 5.5rem 1.5rem;
 }
 
 h2{
     font-family: 'Big Shoulders Display', sans-serif;
     text-transform: uppercase;
-    color:  var(--white);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    color:  var(--gray);
+    margin-block: 1.875rem;
 }
 
 p{
-    color: var(--transparent-white);
+    font-family: 'Lexend Deca', sans-serif;
     font-size: 0.9375rem;
+    color: var(--transparent-white);
     margin-bottom: 1.5rem;
 }
 
-.card{
+a{
+    font-family: 'Lexend Deca', sans-serif; 
+}
+
+section {
     padding: 3rem;
 }
 
 .sedans {
-    background: var(--bright-orange) ;
+    background: var(--orange) ;
 }
 
 .suvs {
-    background: var(--dark-cyan);
+    background: var(--cyan);
 }
 
 .luxury {
-    background: var(--very-dark-cyan);
+    background: var(--dark-cyan);
 }
